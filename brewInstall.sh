@@ -69,6 +69,7 @@ function main() {
         echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
         eval "$(/opt/homebrew/bin/brew shellenv)"
         source ~/.bash_profile
+        /opt/homebrew/bin/brew analytics off
     fi
 
     # Verify Homebrew installation
